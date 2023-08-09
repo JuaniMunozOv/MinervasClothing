@@ -5,47 +5,96 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Inicio</title>
 <style>
-  /* Tu estilo CSS aquí */
+  
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #555252d8;
+      background-size: 100px 100px; /* Tamaño de la textura */
+      font-family: 'Playfair Display', serif;
+      color: aliceblue;
+    }
+
+    header {
+      background-color: #ffffff; /* Fondo blanco para encabezado */
+      text-align: center;
+      padding:0px;
+    }
+
+    header img {
+      max-width: 80%;
+      height: auto;
+    }
+
+    .cuadrodetexto {
+    text-decoration: none; 
+     color: #fafafa; /* Color de enlace personalizado */
+     transition: color 0.5s ease;
+     background-color: #3b3a3a; /* Fondo negro para placa de cuidados */
+     margin: 20px auto;
+     padding: 20px;
+     max-width: 280px;
+     height: 620px;
+     border-radius: 20px;
+     box-shadow: 0 0 8px rgb(254, 254, 254);
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+    }
+
+
+  .cuadrodetexto h1 {
+    text-align: center; /* Centrar el título */
+    margin-top: 2px;
+  }
+
+  .cuadrodetexto p {
+    margin-top: 0; /* Ajuste: eliminar el margen superior */
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 10px 0;
+  }
+
+  .menu li {
+    margin-right: 20px;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: white;
+  }
+
 </style>
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+
 </head>
+
 <body>
   <nav>
     <ul class="menu">
-      <li><a href="inicio.html">Inicio</a></li>
-      <li><a href="productos.html">Productos</a></li>
-      <li><a href="cuidados.html">Cuidados</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="productos.html">Productos</a>
+      </li><li><a href="cuidados.html">Cuidados</a></li>
+      </li><li><a href="contacto.html">Contacto</a></li>
       <!-- Agrega más elementos de lista para otras páginas si es necesario -->
     </ul>
   </nav>
 
   <header>
-    <img src="Minervas.JPG" alt="Logo de la Marca">
+    <img src="https://i.postimg.cc/htsJNzrR/Minervas.jpg" alt="Logo de la Marca">
   </header>
   
-  <!-- Enlace interactivo a página de Productos -->
-  <a href="productos.html" class="enlace-interactivo-productos">
-    <div class="cuadrodetexto">
-      <h1> PRODUCTOS </h1>
-      <!-- Contenido de imagen y descripción para Productos -->
-    </div>
-  </a>
-  
-  <!-- Enlace interactivo a página de Cuidados -->
-  <a href="cuidados.html" class="enlace-interactivo-cuidados">
-    <div class="cuadrodetexto">
-      <h1> CUIDADOS </h1>
-      <!-- Contenido de imagen y descripción para Cuidados -->
-    </div>
-  </a>
-  
-  <!-- Enlace interactivo a página de Contacto -->
-  <a href="contacto.html" class="enlace-interactivo-contacto">
-    <div class="cuadrodetexto">
-      <h1> CONTACTO </h1>
-      <!-- Contenido de imagen y descripción para Contacto -->
-    </div>
-  </a>
+    <!-- Enlace interactivo a página de Productos -->
+    <a href="productos.html" class="cuadrodetexto">
+          <h1> imagen </h1>
+          <!-- Contenido de imagen y descripción para Corsets -->
+        </div>
+    </a>
+
 </body>
 </html>
+
